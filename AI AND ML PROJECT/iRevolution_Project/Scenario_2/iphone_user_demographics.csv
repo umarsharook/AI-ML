@@ -1,0 +1,101 @@
+User_ID,Age_Group,Income_Level,City,Model,Rating,Price
+U0001,36-45,High,Hyderabad,iPhone 12,5.0,60000
+U0002,46+,Medium,Hyderabad,iPhone 14 Pro Max,4.1,60000
+U0003,18-25,Medium,Hyderabad,iPhone 12,4.3,75000
+U0004,36-45,Medium,Hyderabad,iPhone 13,4.2,60000
+U0005,36-45,Medium,Hyderabad,iPhone 14,4.3,45000
+U0006,46+,Medium,Kolkata,iPhone 12,4.5,110000
+U0007,18-25,Medium,Kolkata,iPhone 11,4.4,110000
+U0008,18-25,High,Bangalore,iPhone 14,4.4,90000
+U0009,36-45,High,Mumbai,iPhone 14,4.8,60000
+U0010,26-35,Medium,Hyderabad,iPhone 11,4.9,45000
+U0011,36-45,High,Delhi,iPhone 12,4.1,90000
+U0012,36-45,Low,Kolkata,iPhone 11,4.2,75000
+U0013,36-45,Medium,Delhi,iPhone 14 Pro Max,4.7,90000
+U0014,36-45,Low,Delhi,iPhone 14,4.4,90000
+U0015,46+,Low,Delhi,iPhone 14 Pro,4.3,60000
+U0016,18-25,Medium,Bangalore,iPhone 14 Pro,4.3,75000
+U0017,46+,High,Kolkata,iPhone 13,4.3,90000
+U0018,46+,Low,Delhi,iPhone 11,4.8,45000
+U0019,46+,Medium,Hyderabad,iPhone 11,4.1,45000
+U0020,36-45,Low,Chennai,iPhone 13,4.7,110000
+U0021,26-35,Low,Delhi,iPhone 13,4.6,75000
+U0022,18-25,Low,Bangalore,iPhone 13,4.3,75000
+U0023,26-35,Low,Kolkata,iPhone 14,4.4,110000
+U0024,46+,High,Bangalore,iPhone 14 Pro Max,4.3,90000
+U0025,46+,Low,Delhi,iPhone 11,4.6,75000
+U0026,26-35,Low,Kolkata,iPhone 14,4.1,45000
+U0027,26-35,Low,Chennai,iPhone 13,4.0,45000
+U0028,26-35,High,Delhi,iPhone 11,4.6,60000
+U0029,46+,Low,Bangalore,iPhone 14,4.2,75000
+U0030,46+,Low,Mumbai,iPhone 14 Pro Max,4.1,90000
+U0031,18-25,High,Hyderabad,iPhone 14,4.4,110000
+U0032,18-25,High,Bangalore,iPhone 14 Pro Max,4.1,110000
+U0033,46+,High,Kolkata,iPhone 13,4.9,90000
+U0034,26-35,Low,Delhi,iPhone 14 Pro Max,4.0,60000
+U0035,26-35,High,Hyderabad,iPhone 11,4.6,110000
+U0036,18-25,High,Delhi,iPhone 13,4.4,75000
+U0037,46+,Low,Kolkata,iPhone 11,4.7,60000
+U0038,18-25,High,Delhi,iPhone 14 Pro,4.3,75000
+U0039,18-25,Low,Mumbai,iPhone 12,4.2,45000
+U0040,36-45,Medium,Hyderabad,iPhone 14 Pro Max,5.0,60000
+U0041,36-45,High,Hyderabad,iPhone 12,4.8,110000
+U0042,36-45,Medium,Kolkata,iPhone 12,4.9,60000
+U0043,26-35,Low,Mumbai,iPhone 14 Pro Max,4.3,60000
+U0044,46+,High,Bangalore,iPhone 13,4.0,60000
+U0045,46+,Low,Delhi,iPhone 14 Pro,4.3,60000
+U0046,46+,Medium,Chennai,iPhone 11,4.5,75000
+U0047,46+,Low,Delhi,iPhone 14,4.3,45000
+U0048,36-45,High,Delhi,iPhone 11,4.8,90000
+U0049,26-35,High,Bangalore,iPhone 14,4.3,60000
+U0050,26-35,Medium,Delhi,iPhone 11,5.0,110000
+U0051,36-45,Low,Mumbai,iPhone 14 Pro Max,4.5,60000
+U0052,26-35,High,Mumbai,iPhone 14 Pro,4.8,110000
+U0053,36-45,Medium,Hyderabad,iPhone 14,4.2,75000
+U0054,46+,High,Kolkata,iPhone 13,4.4,110000
+U0055,36-45,High,Chennai,iPhone 11,4.7,90000
+U0056,46+,Low,Delhi,iPhone 11,4.1,45000
+U0057,46+,High,Delhi,iPhone 14,4.1,110000
+U0058,18-25,Low,Bangalore,iPhone 13,5.0,110000
+U0059,36-45,High,Kolkata,iPhone 13,4.7,45000
+U0060,18-25,Medium,Mumbai,iPhone 14 Pro Max,4.0,90000
+U0061,36-45,High,Chennai,iPhone 14 Pro Max,4.4,60000
+U0062,36-45,Low,Hyderabad,iPhone 14 Pro Max,4.4,110000
+U0063,18-25,Low,Mumbai,iPhone 14 Pro Max,4.7,45000
+U0064,18-25,Medium,Kolkata,iPhone 14 Pro Max,4.3,75000
+U0065,36-45,High,Hyderabad,iPhone 14 Pro Max,4.2,45000
+U0066,26-35,High,Bangalore,iPhone 14 Pro,4.1,75000
+U0067,46+,Medium,Bangalore,iPhone 13,4.4,90000
+U0068,18-25,High,Delhi,iPhone 14 Pro Max,4.7,60000
+U0069,46+,High,Kolkata,iPhone 13,4.1,45000
+U0070,26-35,Low,Chennai,iPhone 13,4.9,110000
+U0071,26-35,High,Hyderabad,iPhone 12,4.4,90000
+U0072,26-35,High,Mumbai,iPhone 14 Pro,4.2,45000
+U0073,18-25,Medium,Kolkata,iPhone 14 Pro Max,4.1,110000
+U0074,26-35,Medium,Kolkata,iPhone 11,4.2,45000
+U0075,18-25,Low,Bangalore,iPhone 14,4.9,75000
+U0076,26-35,High,Delhi,iPhone 11,4.6,45000
+U0077,46+,High,Delhi,iPhone 14 Pro,4.5,45000
+U0078,46+,High,Hyderabad,iPhone 14,4.7,45000
+U0079,36-45,Low,Bangalore,iPhone 14 Pro,4.4,90000
+U0080,46+,Low,Kolkata,iPhone 13,4.7,45000
+U0081,36-45,Medium,Chennai,iPhone 14,4.0,110000
+U0082,46+,Low,Bangalore,iPhone 13,4.6,75000
+U0083,18-25,High,Hyderabad,iPhone 11,4.2,75000
+U0084,46+,High,Hyderabad,iPhone 11,4.1,45000
+U0085,36-45,Low,Bangalore,iPhone 14,4.3,90000
+U0086,36-45,High,Hyderabad,iPhone 14,4.1,90000
+U0087,26-35,High,Bangalore,iPhone 14 Pro Max,4.1,110000
+U0088,18-25,Low,Mumbai,iPhone 14 Pro,4.3,45000
+U0089,46+,Low,Bangalore,iPhone 14 Pro Max,5.0,75000
+U0090,26-35,High,Bangalore,iPhone 14 Pro,4.2,90000
+U0091,46+,High,Hyderabad,iPhone 14 Pro Max,4.0,45000
+U0092,46+,High,Hyderabad,iPhone 13,4.8,90000
+U0093,26-35,Medium,Delhi,iPhone 14,4.8,90000
+U0094,26-35,Medium,Delhi,iPhone 11,4.3,75000
+U0095,26-35,Medium,Mumbai,iPhone 14 Pro,4.5,60000
+U0096,26-35,Low,Delhi,iPhone 14 Pro,4.6,110000
+U0097,26-35,Medium,Bangalore,iPhone 11,4.0,110000
+U0098,46+,Low,Hyderabad,iPhone 14 Pro Max,4.9,75000
+U0099,26-35,Low,Delhi,iPhone 14 Pro,4.9,90000
+U0100,18-25,Medium,Delhi,iPhone 13,4.3,45000

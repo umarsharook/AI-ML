@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Dice Game</h1>
+    <input id="referralInput" type="text" placeholder="Enter referral code">
+    <button id="referralBtn" onclick="applyReferral()">Apply Referral</button>
+
+    <div class="dice-area">
+      <div id="dice1" class="dice"></div>
+      <div id="dice2" class="dice"></div>
+    </div>
+
+    <div class="bet-options">
+      <input id="betAmount" type="number" placeholder="Enter bet amount" value="10" min="1">
+      <button class="bet-button down" onclick="toggleBet(this, 'DOWN')">2-6<br><small>1:1</small></button>
+      <button class="bet-button mid" onclick="toggleBet(this, '7')">7<br><small>1:4</small></button>
+      <button class="bet-button up" onclick="toggleBet(this, 'UP')">8-12<br><small>1:1</small></button>
+    </div>
+
+    <button id="rollBtn" onclick="rollDice()">ROLL</button>
+    <p id="result">You rolled: -</p>
+    <p>Balance: ₹<span id="balance">100</span></p>
+
+    <div class="number-grid">
+      <button onclick="toggleBet(this, '2')">2<br><small>1:26</small></button>
+      <button onclick="toggleBet(this, '3')">3<br><small>1:12</small></button>
+      <button onclick="toggleBet(this, '4')">4<br><small>1:8</small></button>
+      <button onclick="toggleBet(this, '5')">5<br><small>1:6</small></button>
+      <button onclick="toggleBet(this, '6')">6<br><small>1:5</small></button>
+      <button onclick="toggleBet(this, '7')">7<br><small>1:4</small></button>
+      <button onclick="toggleBet(this, '8')">8<br><small>1:5</small></button>
+      <button onclick="toggleBet(this, '9')">9<br><small>1:6</small></button>
+      <button onclick="toggleBet(this, '10')">10<br><small>1:8</small></button>
+      <button onclick="toggleBet(this, '11')">11<br><small>1:12</small></button>
+      <button onclick="toggleBet(this, '12')">12<br><small>1:26</small></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

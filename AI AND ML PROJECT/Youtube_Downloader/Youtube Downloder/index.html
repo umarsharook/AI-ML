@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Video Downloader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+
+    .container {
+      background: #fff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 0.5em 0 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .message {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube Video Downloader</h2>
+    <input type="text" id="url" placeholder="Enter YouTube video URL" />
+    <input type="text" id="path" placeholder="Enter download path (optional)" />
+    <button onclick="downloadVideo()">Download</button>
+    <div class="message" id="message"></div>
+  </div>
+
+  <script>
+    async function downloadVideo() {
+      const url = document.getElementById('url').value.trim();
+      const path = document.getElementById('path').value.trim();
+
+      if (!url) {
+        document.getElementById('message').textContent = '⚠️ Please enter a video URL.';
+        return;
+      }
+
+      document.getElementById('message').textContent = '⏳ Downloading...';
+
+      try {
+        const response = await fetch('/download', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ url, path })
+        });
+
+        const data = await response.json();
+        document.getElementById('message').textContent = data.message;
+      } catch (error) {
+        document.getElementById('message').textContent = '❌ Error: ' + error.message;
+      }
+    }
+  </script>
+</body>
+</html>
